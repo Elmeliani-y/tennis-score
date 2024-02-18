@@ -1,7 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+this is a tenis score calculator maade with react and redux , redux is a library that helps to manage that data or as called states of a react application , hope it helps 
 ## Available Scripts
 
 In the project directory, you can run:
