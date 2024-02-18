@@ -1,0 +1,83 @@
+body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f5f5f5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+      }
+      
+      .tennis-container {
+        text-align: center;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      
+      h2 {
+        color: #333;
+      }
+      
+      .score-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+      }
+      
+      .score-button {
+        background-color: #3498db;
+        color: #fff;
+        padding: 8px 16px; /* Adjusted button width */
+        font-size: 16px;
+        margin: 5px 0; /* Added margin between buttons */
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+      
+      .score-button:disabled {
+        background-color: #ccc;
+        cursor: not-allowed;
+      }
+      
+      .score-button:hover {
+        background-color: #2980b9;
+      }
+      
+      .score-text {
+        font-size: 18px;
+        margin-top: 20px;
+      }
+      
+      .button-container {
+        margin-top: 20px;
+      }
+      
+      .reset-button,
+      .pause-button {
+        background-color: #e74c3c;
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 16px;
+        margin-right: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+      
+      .reset-button:disabled,
+      .pause-button:disabled {
+        background-color: #ccc;
+        cursor: not-allowed;
+      }
+      
+      .reset-button:hover,
+      .pause-button:hover {
+        background-color: #c0392b;
+      }
+      
